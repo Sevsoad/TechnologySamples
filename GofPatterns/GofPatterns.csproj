@@ -45,7 +45,9 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
@@ -57,8 +59,16 @@
     <Compile Include="AbstrFactory\Factories\PetrolCarFactory.cs" />
     <Compile Include="AbstrFactory\PowerBlocks.cs" />
     <Compile Include="AbstrFactory\CarFactoryTests.cs" />
+    <Compile Include="Builder\DrinkBuilders.cs" />
+    <Compile Include="Builder\DrinkDirector.cs" />
+    <Compile Include="Builder\Drinks.cs" />
+    <Compile Include="Builder\BuilderTests.cs" />
+    <Compile Include="FactoryMethod\OrderFactoriesTests.cs" />
+    <Compile Include="FactoryMethod\Orders.cs" />
+    <Compile Include="FactoryMethod\OrdersFactories.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

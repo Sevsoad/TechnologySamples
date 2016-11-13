@@ -1,0 +1,1 @@
+<CarShop xmlns="http://schemas.datacontract.org/2004/07/Serialization" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Address>StreetName</Address><Cars><Car><_x003C_CarName_x003E_k__BackingField>Tesla</_x003C_CarName_x003E_k__BackingField><engine><engineNumber>12345</engineNumber></engine><x>1</x><y>2 +1 +1</y><z>3</z></Car></Cars><RoomsQty>10</RoomsQty></CarShop>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Кнiга xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Цана="16">
+  <ID>0</ID>
+  <Назва>Dark tower</Назва>
+  <Састянне>Цэлая</Састянне>
+  <Тэг>Fiction</Тэг>
+  <Тэг>Crippy</Тэг>
+  <Аутары>
+    <Аутар>
+      <Имя>Stephen</Имя>
+      <Прозвишча>King</Прозвишча>
+    </Аутар>
+  </Аутары>
+</Кнiга>

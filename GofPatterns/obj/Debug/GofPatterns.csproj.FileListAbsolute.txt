@@ -1,0 +1,6 @@
+D:\Projects\TestProjects\TestProjects\GofPatterns\bin\Debug\GofPatterns.dll
+D:\Projects\TestProjects\TestProjects\GofPatterns\bin\Debug\GofPatterns.pdb
+D:\Projects\TestProjects\TestProjects\GofPatterns\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projects\TestProjects\TestProjects\GofPatterns\obj\Debug\GofPatterns.csprojResolveAssemblyReference.cache
+D:\Projects\TestProjects\TestProjects\GofPatterns\obj\Debug\GofPatterns.dll
+D:\Projects\TestProjects\TestProjects\GofPatterns\obj\Debug\GofPatterns.pdb

@@ -1,0 +1,6 @@
+D:\Projects\TestProjects\TestProjects\Serialization\bin\Debug\Serialization.exe.config
+D:\Projects\TestProjects\TestProjects\Serialization\bin\Debug\Serialization.exe
+D:\Projects\TestProjects\TestProjects\Serialization\bin\Debug\Serialization.pdb
+D:\Projects\TestProjects\TestProjects\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
+D:\Projects\TestProjects\TestProjects\Serialization\obj\Debug\Serialization.exe
+D:\Projects\TestProjects\TestProjects\Serialization\obj\Debug\Serialization.pdb

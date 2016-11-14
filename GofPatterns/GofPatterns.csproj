@@ -67,6 +67,8 @@
     <Compile Include="FactoryMethod\Orders.cs" />
     <Compile Include="FactoryMethod\OrdersFactories.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\Employees.cs" />
+    <Compile Include="Prototype\PrototypeTests.cs" />
   </ItemGroup>
   <ItemGroup />
   <Choose>

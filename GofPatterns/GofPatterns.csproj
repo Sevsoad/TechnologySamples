@@ -52,25 +52,30 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AbstrFactory\Factories\CarFactory.cs" />
-    <Compile Include="AbstrFactory\Car.cs" />
-    <Compile Include="AbstrFactory\Engines.cs" />
-    <Compile Include="AbstrFactory\Factories\ElectricCarFactory.cs" />
-    <Compile Include="AbstrFactory\Factories\PetrolCarFactory.cs" />
-    <Compile Include="AbstrFactory\PowerBlocks.cs" />
-    <Compile Include="AbstrFactory\CarFactoryTests.cs" />
-    <Compile Include="Builder\DrinkBuilders.cs" />
-    <Compile Include="Builder\DrinkDirector.cs" />
-    <Compile Include="Builder\Drinks.cs" />
-    <Compile Include="Builder\BuilderTests.cs" />
-    <Compile Include="FactoryMethod\OrderFactoriesTests.cs" />
-    <Compile Include="FactoryMethod\Orders.cs" />
-    <Compile Include="FactoryMethod\OrdersFactories.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\Factories\CarFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\Car.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\Engines.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\Factories\ElectricCarFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\Factories\PetrolCarFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\PowerBlocks.cs" />
+    <Compile Include="CreationalPatterns\AbstrFactory\CarFactoryTests.cs" />
+    <Compile Include="CreationalPatterns\Builder\DrinkBuilders.cs" />
+    <Compile Include="CreationalPatterns\Builder\DrinkDirector.cs" />
+    <Compile Include="CreationalPatterns\Builder\Drinks.cs" />
+    <Compile Include="CreationalPatterns\Builder\BuilderTests.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\OrderFactoriesTests.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Orders.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\OrdersFactories.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Prototype\Employees.cs" />
-    <Compile Include="Prototype\PrototypeTests.cs" />
-    <Compile Include="Singleton\Singleton.cs" />
-    <Compile Include="Singleton\SingletonTests.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Employees.cs" />
+    <Compile Include="CreationalPatterns\Prototype\PrototypeTests.cs" />
+    <Compile Include="CreationalPatterns\Singleton\Singleton.cs" />
+    <Compile Include="CreationalPatterns\Singleton\SingletonTests.cs" />
+    <Compile Include="StructuralPatterns\Adapter\CoordinatBoard.cs" />
+    <Compile Include="StructuralPatterns\Adapter\CoordinatProviderAdapter.cs" />
+    <Compile Include="StructuralPatterns\Adapter\ICoordinateProvider.cs" />
+    <Compile Include="StructuralPatterns\Adapter\NavigationSystem.cs" />
+    <Compile Include="StructuralPatterns\Adapter\AdapterTest.cs" />
   </ItemGroup>
   <ItemGroup />
   <Choose>

@@ -12,8 +12,8 @@ namespace GofPatterns.StructuralPatterns.Bridge
             ICommentProvider sqlCommentProvdier = new CommentProviderSql();
             ICommentProvider webCommentProvdier = new CommentProviderWeb();
 
-            CommentPosterBridge funnyCommentPosterSql = new FunnyCommentPoster(sqlCommentProvdier);
-            CommentPosterBridge politeCommentPosterWeb = new PoliteCommentPoster(webCommentProvdier);
+            CommentPoster funnyCommentPosterSql = new FunnyCommentPoster(sqlCommentProvdier);
+            CommentPoster politeCommentPosterWeb = new PoliteCommentPoster(webCommentProvdier);
 
             //So we have 4 possible combinations now here, right?
 

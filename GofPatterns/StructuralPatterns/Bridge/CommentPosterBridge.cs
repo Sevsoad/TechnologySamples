@@ -2,18 +2,25 @@
 
 namespace GofPatterns.StructuralPatterns.Bridge
 {
-    public abstract class CommentPosterBridge
+    public class CommentPoster
     {
-        public ICommentProvider _commentProvider;              
+        public ICommentProvider _commentProvider;
 
-        public abstract string GetComment();
-    }
-
-    public class FunnyCommentPoster : CommentPosterBridge
-    {
-        public FunnyCommentPoster(ICommentProvider commentProvider)
+        public CommentPoster(ICommentProvider commentProvider)
         {
             _commentProvider = commentProvider;
+        }
+
+        public virtual string GetComment()
+        {
+            return _commentProvider.GetCommentText();
+        }
+    }
+
+    public class FunnyCommentPoster : CommentPoster
+    {
+        public FunnyCommentPoster(ICommentProvider commentProvider) : base(commentProvider)
+        {
         }
 
         public override string GetComment()
@@ -22,13 +29,12 @@ namespace GofPatterns.StructuralPatterns.Bridge
         }
     }
 
-    public class PoliteCommentPoster : CommentPosterBridge
+    public class PoliteCommentPoster : CommentPoster
     {
         private string phraseFromPoliteService = "\n p.s. Sorry about that.";
 
-        public PoliteCommentPoster(ICommentProvider commentProvider)
+        public PoliteCommentPoster(ICommentProvider commentProvider) : base(commentProvider)
         {
-            _commentProvider = commentProvider;
         }
 
         public override string GetComment()

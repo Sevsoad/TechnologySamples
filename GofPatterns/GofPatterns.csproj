@@ -76,13 +76,14 @@
     <Compile Include="StructuralPatterns\Adapter\ICoordinateProvider.cs" />
     <Compile Include="StructuralPatterns\Adapter\NavigationSystem.cs" />
     <Compile Include="StructuralPatterns\Adapter\AdapterTest.cs" />
+    <Compile Include="StructuralPatterns\Bridge\CommentPosterBridge.cs" />
+    <Compile Include="StructuralPatterns\Bridge\CommentProvider.cs" />
+    <Compile Include="StructuralPatterns\Bridge\UnitTest1.cs" />
     <Compile Include="StructuralPatterns\Facade\LetterSenderFacade.cs" />
     <Compile Include="StructuralPatterns\Facade\Services.cs" />
     <Compile Include="StructuralPatterns\Facade\FacadeTests.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="StructuralPatterns\Bridge\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

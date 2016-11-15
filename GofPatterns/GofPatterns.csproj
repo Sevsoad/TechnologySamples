@@ -82,6 +82,8 @@
     <Compile Include="StructuralPatterns\Facade\LetterSenderFacade.cs" />
     <Compile Include="StructuralPatterns\Facade\Services.cs" />
     <Compile Include="StructuralPatterns\Facade\FacadeTests.cs" />
+    <Compile Include="StructuralPatterns\Proxy\CalculationAlg.cs" />
+    <Compile Include="StructuralPatterns\Proxy\UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup />
   <Choose>
